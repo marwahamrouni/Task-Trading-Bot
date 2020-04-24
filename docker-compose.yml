@@ -1,0 +1,5 @@
+version: '3'
+services:
+    mypythontask:
+        build: ./
+        command: python3 Task.py
